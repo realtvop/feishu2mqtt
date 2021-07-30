@@ -4,4 +4,5 @@
 
 ## 接收端
 
-详见(receive )
+详见[这里](receive/README.md)
+
