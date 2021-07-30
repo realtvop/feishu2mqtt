@@ -48,7 +48,8 @@ def json2send(message):
     returns = {
         "msg" : messages["event"]["message"]["content"],
         "msg_id" : messages["event"]["message"]["message_id"],
-        "sender_union_id" : messages["event"]["sender"]["sender_id"]["union_id"]
+        "sender_union_id" : messages["event"]["sender"]["sender_id"]["union_id"],
+        "timestrap" : messages["event"]["message"]["create_time"]
     }
     return json.dumps(returns)
 
