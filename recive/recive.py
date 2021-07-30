@@ -6,8 +6,6 @@ mqttconfig = config["mqtt"]
 feishubotconfig = config["feishuBot"]
 
 ###MQTT###
-# python 3.6
-
 import random
 import time
 
