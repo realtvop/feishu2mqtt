@@ -1,11 +1,11 @@
-####CONFIG###
+###CONFIG###
 import json
 configfile = open("config.json",)
 config = json.load(configfile)
 mqttconfig = config["mqtt"]
 feishubotconfig = config["feishuBot"]
 
-###MQTT##
+###MQTT###
 # python 3.6
 
 import random
