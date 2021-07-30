@@ -1,4 +1,4 @@
-###CONFIG###
+####CONFIG###
 import json
 configfile = open("config.json",)
 config = json.load(configfile)
